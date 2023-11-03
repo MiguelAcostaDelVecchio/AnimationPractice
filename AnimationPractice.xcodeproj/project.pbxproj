@@ -21,6 +21,7 @@
 		04F08B022AF446910078BEA6 /* ShakingButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F08B012AF446910078BEA6 /* ShakingButtonAnimation.swift */; };
 		04F08B042AF453D90078BEA6 /* MultipleButtonsShaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F08B032AF453D90078BEA6 /* MultipleButtonsShaking.swift */; };
 		04F08B062AF4558C0078BEA6 /* MBS_TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F08B052AF4558C0078BEA6 /* MBS_TextView.swift */; };
+		04F08B082AF49B1C0078BEA6 /* ShakingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F08B072AF49B1C0078BEA6 /* ShakingButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		04F08B012AF446910078BEA6 /* ShakingButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingButtonAnimation.swift; sourceTree = "<group>"; };
 		04F08B032AF453D90078BEA6 /* MultipleButtonsShaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleButtonsShaking.swift; sourceTree = "<group>"; };
 		04F08B052AF4558C0078BEA6 /* MBS_TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBS_TextView.swift; sourceTree = "<group>"; };
+		04F08B072AF49B1C0078BEA6 /* ShakingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				04F08B012AF446910078BEA6 /* ShakingButtonAnimation.swift */,
 				04F08B032AF453D90078BEA6 /* MultipleButtonsShaking.swift */,
 				04F08B052AF4558C0078BEA6 /* MBS_TextView.swift */,
+				04F08B072AF49B1C0078BEA6 /* ShakingButtonView.swift */,
 			);
 			path = "Basic Animations";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F08B082AF49B1C0078BEA6 /* ShakingButtonView.swift in Sources */,
 				041FA8F32ADC9B9D0000129F /* CoreAnimationListIntroViews.swift in Sources */,
 				047C58CF2AD9EE0400822801 /* CoreAnimationPracticeApp.swift in Sources */,
 				047C58E02AD9EEE300822801 /* OldHomeScreenView.swift in Sources */,

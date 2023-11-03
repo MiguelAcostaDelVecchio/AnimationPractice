@@ -11,6 +11,12 @@ struct SimpleRectangleAnimation: View {
     @State var isAnimated = false
     var body: some View {
         VStack {
+            Text("Please tap on the rectangle to see what happens!")
+                .bold()
+                .font(.title2)
+                .multilineTextAlignment(.center)
+                .padding(.top, 50)
+            Spacer()
             Rectangle()
                 .frame(width: 100, height: 100) // size of the rectangle
                 .foregroundColor(.black) // color of the rectangle

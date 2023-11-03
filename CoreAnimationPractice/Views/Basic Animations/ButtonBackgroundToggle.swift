@@ -10,15 +10,24 @@ import SwiftUI
 struct ButtonBackgroundToggle: View {
     @State var isTapped = false
     var body: some View {
-        Button(action: {
-            isTapped.toggle()
-        }, label: {Text("Example")
-                .font(.title)
+        VStack{
+            Text("Please press the button to see its background color change!")
                 .bold()
-                .padding(10)
-                .border(.black, width: 4)
-            .background(isTapped ? .green : .red)})
-        .foregroundColor(.black)
+                .font(.title2)
+                .multilineTextAlignment(.center)
+                .padding(.top, 50)
+            Spacer()
+            Button(action: {
+                isTapped.toggle()
+            }, label: {Text("Example")
+                    .font(.title)
+                    .bold()
+                    .padding(10)
+                    .border(.black, width: 4)
+                .background(isTapped ? .green : .red)})
+            .foregroundColor(.black)
+            Spacer()
+        }
     }
 }
 

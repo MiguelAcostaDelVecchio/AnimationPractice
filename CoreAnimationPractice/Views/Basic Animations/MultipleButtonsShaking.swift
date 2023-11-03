@@ -18,11 +18,11 @@ struct MultipleButtonsShaking: View {
         Spacer()
         
         VStack {
-            Text("Let us try to shake button pressed!")
+            Text("Only Choice 3 is correct!")
                 .bold()
-                .font(.title3)
+                .font(.title2)
                 .multilineTextAlignment(.center)
-                .padding()
+                .padding(.top, 50)
             
             Spacer()
             

@@ -14,18 +14,18 @@ struct HomeScreenView: View {
                 
                 Section { // First section
                     NavigationLink(destination: SimpleRectangleAnimation(), label: {Text("Simple Rectangle Animation").bold()})
-                    
-                    NavigationLink(destination: ButtonBackgroundToggle(), label: {Text("Button Background Toggle").bold()})
-                    
-                    NavigationLink(destination: MultipleButtonToggleView(), label: {Text("Multiple Button Toggle").bold()})
                 }
                 
                 Section { // second section
-                    NavigationLink(destination: CoreAnimationListIntroViews(), label: {Text("Core Animation Basics").bold()})
+                    NavigationLink(destination: ButtonBackgroundToggle(), label: {Text("Button Background Toggle").bold()})
+                    
+                    NavigationLink(destination: MultipleButtonToggleView(), label: {Text("Multiple Choice Background Toggle").bold()})
                 }
                 
                 Section { // third section
-                    Text("Here is another section").bold()
+                    NavigationLink(destination: ShakingButtonView(), label: {Text("Shaking Button Animation").bold()})
+                    
+                    NavigationLink(destination: MultipleButtonsShaking(), label: {Text("Multple Choice With Shaking ").bold()})
                 }
             }
             .navigationBarTitle("Animation Practice", displayMode: .inline)
