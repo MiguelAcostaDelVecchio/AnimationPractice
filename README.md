@@ -1,6 +1,6 @@
 # Animation Practice App
 ## Screen Shots
-<img src="https://github.com/MiguelAcostaDelVecchio/AnimationPractice/blob/main/Gifs/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202023-11-02%20at%2023.19.45.mp4" width="300" height="624" />
+<img src="https://github.com/MiguelAcostaDelVecchio/AnimationPractice/blob/main/Gifs/AnimationPracticeGif.gif" width="300" height="624" />
 
 ## Table of contents
 - [Description](https://github.com/MiguelAcostaDelVecchio/QuizApp/edit/main/README.md#description)
