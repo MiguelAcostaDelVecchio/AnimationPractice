@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		040BF0C82ADB489900C7FB94 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BF0C72ADB489900C7FB94 /* HomeScreenView.swift */; };
 		041FA8F32ADC9B9D0000129F /* CoreAnimationListIntroViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041FA8F22ADC9B9D0000129F /* CoreAnimationListIntroViews.swift */; };
-		047C58CF2AD9EE0400822801 /* CoreAnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C58CE2AD9EE0400822801 /* CoreAnimationPracticeApp.swift */; };
+		047915CF2AF84F7700149D1A /* ContactForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047915CE2AF84F7700149D1A /* ContactForm.swift */; };
+		047915D22AF85D7700149D1A /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 047915D12AF85D7700149D1A /* ConfettiSwiftUI */; };
+		047C58CF2AD9EE0400822801 /* AnimationPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C58CE2AD9EE0400822801 /* AnimationPracticeApp.swift */; };
 		047C58D32AD9EE0600822801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C58D22AD9EE0600822801 /* Assets.xcassets */; };
 		047C58D62AD9EE0600822801 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C58D52AD9EE0600822801 /* Preview Assets.xcassets */; };
 		047C58E02AD9EEE300822801 /* OldHomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C58DF2AD9EEE300822801 /* OldHomeScreenView.swift */; };
@@ -27,8 +29,9 @@
 /* Begin PBXFileReference section */
 		040BF0C72ADB489900C7FB94 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		041FA8F22ADC9B9D0000129F /* CoreAnimationListIntroViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationListIntroViews.swift; sourceTree = "<group>"; };
+		047915CE2AF84F7700149D1A /* ContactForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactForm.swift; sourceTree = "<group>"; };
 		047C58CB2AD9EE0400822801 /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		047C58CE2AD9EE0400822801 /* CoreAnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationPracticeApp.swift; sourceTree = "<group>"; };
+		047C58CE2AD9EE0400822801 /* AnimationPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPracticeApp.swift; sourceTree = "<group>"; };
 		047C58D22AD9EE0600822801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047C58D52AD9EE0600822801 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		047C58DF2AD9EEE300822801 /* OldHomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldHomeScreenView.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047915D22AF85D7700149D1A /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +61,7 @@
 		040BF0C92ADB5E9600C7FB94 /* Trash */ = {
 			isa = PBXGroup;
 			children = (
+				041FA8F12ADC9B770000129F /* NavigationsListViews */,
 				047C58E72ADA226A00822801 /* OldHomeScreenNavigationLabelView.swift */,
 				047C58DF2AD9EEE300822801 /* OldHomeScreenView.swift */,
 			);
@@ -86,11 +91,19 @@
 			path = NavigationsListViews;
 			sourceTree = "<group>";
 		};
+		047915CD2AF84F3700149D1A /* FormsAndPickers */ = {
+			isa = PBXGroup;
+			children = (
+				047915CE2AF84F7700149D1A /* ContactForm.swift */,
+			);
+			path = FormsAndPickers;
+			sourceTree = "<group>";
+		};
 		047C58C22AD9EE0400822801 = {
 			isa = PBXGroup;
 			children = (
-				047C58CE2AD9EE0400822801 /* CoreAnimationPracticeApp.swift */,
-				047C58CD2AD9EE0400822801 /* CoreAnimationPractice */,
+				047C58CE2AD9EE0400822801 /* AnimationPracticeApp.swift */,
+				047C58CD2AD9EE0400822801 /* AnimationPractice */,
 				047C58CC2AD9EE0400822801 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +116,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		047C58CD2AD9EE0400822801 /* CoreAnimationPractice */ = {
+		047C58CD2AD9EE0400822801 /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
 				047C58DE2AD9EEAF00822801 /* ViewModels */,
@@ -112,7 +125,7 @@
 				047C58D22AD9EE0600822801 /* Assets.xcassets */,
 				047C58D42AD9EE0600822801 /* Preview Content */,
 			);
-			path = CoreAnimationPractice;
+			path = AnimationPractice;
 			sourceTree = "<group>";
 		};
 		047C58D42AD9EE0600822801 /* Preview Content */ = {
@@ -127,8 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				040BF0C72ADB489900C7FB94 /* HomeScreenView.swift */,
-				041FA8F12ADC9B770000129F /* NavigationsListViews */,
 				040BF0CA2ADB5EE100C7FB94 /* Basic Animations */,
+				047915CD2AF84F3700149D1A /* FormsAndPickers */,
 				040BF0C92ADB5E9600C7FB94 /* Trash */,
 			);
 			path = Views;
@@ -164,6 +177,9 @@
 			dependencies = (
 			);
 			name = AnimationPractice;
+			packageProductDependencies = (
+				047915D12AF85D7700149D1A /* ConfettiSwiftUI */,
+			);
 			productName = CoreAnimationPractice;
 			productReference = 047C58CB2AD9EE0400822801 /* AnimationPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 047C58C22AD9EE0400822801;
+			packageReferences = (
+				047915D02AF85D7700149D1A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
 			productRefGroup = 047C58CC2AD9EE0400822801 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,7 +239,7 @@
 			files = (
 				04F08B082AF49B1C0078BEA6 /* ShakingButtonView.swift in Sources */,
 				041FA8F32ADC9B9D0000129F /* CoreAnimationListIntroViews.swift in Sources */,
-				047C58CF2AD9EE0400822801 /* CoreAnimationPracticeApp.swift in Sources */,
+				047C58CF2AD9EE0400822801 /* AnimationPracticeApp.swift in Sources */,
 				047C58E02AD9EEE300822801 /* OldHomeScreenView.swift in Sources */,
 				047C58EA2ADA23AF00822801 /* MultipleButtonToggleView.swift in Sources */,
 				047C58EC2ADA2AFD00822801 /* MBT_TextView.swift in Sources */,
@@ -229,6 +248,7 @@
 				047C58E62ADA1FDE00822801 /* ButtonBackgroundToggle.swift in Sources */,
 				047C58E82ADA226A00822801 /* OldHomeScreenNavigationLabelView.swift in Sources */,
 				04F08B022AF446910078BEA6 /* ShakingButtonAnimation.swift in Sources */,
+				047915CF2AF84F7700149D1A /* ContactForm.swift in Sources */,
 				04F08B062AF4558C0078BEA6 /* MBS_TextView.swift in Sources */,
 				040BF0C82ADB489900C7FB94 /* HomeScreenView.swift in Sources */,
 			);
@@ -363,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 77KXTX6VUB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -393,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreAnimationPractice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationPractice/Preview Content\"";
 				DEVELOPMENT_TEAM = 77KXTX6VUB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -438,6 +458,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		047915D02AF85D7700149D1A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		047915D12AF85D7700149D1A /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 047915D02AF85D7700149D1A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 047C58C32AD9EE0400822801 /* Project object */;
 }

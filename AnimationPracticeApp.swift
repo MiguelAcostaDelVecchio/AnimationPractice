@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CoreAnimationPracticeApp: App {
+struct AnimationPracticeApp: App {
     var body: some Scene {
         WindowGroup {
             HomeScreenView()

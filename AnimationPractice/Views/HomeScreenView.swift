@@ -27,6 +27,10 @@ struct HomeScreenView: View {
                     
                     NavigationLink(destination: MultipleButtonsShaking(), label: {Text("Multple Choice With Shaking ").bold()})
                 }
+                
+                Section { // Fourth section
+                    NavigationLink(destination: ContactForm(), label: {Text("Contact Form").bold()})
+                }
             }
             .navigationBarTitle("Animation Practice", displayMode: .inline)
             .toolbar{
