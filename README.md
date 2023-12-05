@@ -1,5 +1,5 @@
 # Animation Practice App
-## Screen Shots
+## Screen Recordings
 <img src="https://github.com/MiguelAcostaDelVecchio/AnimationPractice/blob/main/Gifs/AnimationPracticeGif.gif" width="300" height="624" />
 
 ## Table of contents
